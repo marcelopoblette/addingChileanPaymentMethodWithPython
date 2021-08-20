@@ -6,8 +6,8 @@ import pprint
 def login():
     url = "https://apis-dev.pgf.cl/users/login"
     payload = {
-        "username": "YOUR-EMAIL",
-        "password": "YOUR_PASSWORD"
+        "username": "YOUR-EMAIL", #put your e-mail
+        "password": "YOUR_PASSWORD"#put your password
         }
     headers = {
         "Accept": "application/json",

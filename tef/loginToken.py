@@ -6,8 +6,8 @@ from requests.api import post
 def logintoken():
     urlLoginToken = "https://apis.pagofacil.xyz/dev/loginToken"
     payloadLoginToken = {
-        "email": "email",
-        "apiToken": "apiToken" 
+        "email": "email",#put your e-mail
+        "apiToken": "apiToken" #put yuor apitoken
        
         }
     headersLoginToken = {
